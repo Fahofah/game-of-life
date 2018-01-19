@@ -10,7 +10,7 @@ com/wakaleo/gameoflife/domain * Cell.java
  */
 public enum Cell {
 	// Symbols to represent cell status
-    LIVE_CELL("o"), DEAD_CELL(".");
+    LIVE_CELL("*"), DEAD_CELL(".");
 
     private String symbol;
 
